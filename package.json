@@ -1,0 +1,15 @@
+{
+  "name": "automation-excercise",
+  "version": "1.0.0",
+  "description": "Automation Excercise for QA Demonstration",
+  "main": "index.js",
+  "scripts": {
+    "test": "run test:cy"
+  },
+  "author": "Edgar Ysabel",
+  "license": "ISC",
+  "devDependencies": {
+    "@ngneat/falso": "^7.2.0",
+    "cypress": "^13.7.3"
+  }
+}
