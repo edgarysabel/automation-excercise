@@ -49,7 +49,7 @@ const user = {
 
 const creditCard = randCreditCard();
 
-describe("Buy Items", function () {
+describe("End to End Automation Excercise", function () {
   before(() => {
     cy.clearAllSessionStorage();
     cy.visit(`${FRONTEND_URL}`);
