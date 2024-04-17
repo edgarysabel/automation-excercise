@@ -105,8 +105,6 @@ describe("Buy Items", function () {
     signUpPage.continueBtn().click();
   });
 
-  //cartBtn
-
   it("TC-04: Checkout", function () {
     navBar.cartBtn().click();
     cartPage.checkoutBtn().click();
@@ -135,7 +133,7 @@ describe("Buy Items", function () {
     navBar.logoutBtn().should("be.visible");
   });
 
-  it("TC-07: Logout", function () {
+  it("TC-07: Contact Us", function () {
     navBar.contactUsBtn().click();
     contactUsPage.nameTxtbox().type(user.fullName);
     contactUsPage.emailTxtbox().type(user.email);
